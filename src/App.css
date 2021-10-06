@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.btnChoMeo{
+  position: fixed;
+  left: 10px;
+  top: 30%;
+}
+.listImg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+button{
+  outline: none;
+  padding: 7px 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #75638d;
+  border: 2px solid #75638d;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+}
+
